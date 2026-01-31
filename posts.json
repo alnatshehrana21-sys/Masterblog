@@ -1,0 +1,4 @@
+[
+    {"id": 1, "author": "John Doe", "title": "First Post", "content": "Welcome to my new blog!"},
+    {"id": 2, "author": "Jane Doe", "title": "Flask Tips", "content": "Flask is great for beginners."}
+]

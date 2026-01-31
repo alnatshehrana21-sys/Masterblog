@@ -1,0 +1,72 @@
+/* --- Codio Base Style --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.subtitle {
+    text-align: center;
+    color: #888;
+    margin-top: -15px;
+    font-weight: normal;
+}
+
+.post {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Added slight depth */
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* --- TheBlogSpot Button Styles (Crucial for your HTML) --- */
+.btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Yellow for Update */
+.btn-update {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Red for Delete */
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
