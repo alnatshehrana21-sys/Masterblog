@@ -95,4 +95,4 @@ def update(post_id):
 
 if __name__ == '__main__':
     # Using 5001 if your Port 5000 is still blocked by AirPlay
-    app.run(host="127.0.0.1", port=5001, debug=True)
+    app.run(host="127.0.0.1", port=5000, debug=True)
